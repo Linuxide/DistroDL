@@ -2,12 +2,12 @@
 
 namespace DistroDL
 {
-       public struct distroDB
-       {
-                public string name;
-                public string version;
-                public string url;
-       }
+    public struct distroDB
+    {
+        public string name;
+        public string version;
+        public string url;
+    }
 
     internal class JSONParser //TODO: Make a simple jsonparser
     {
@@ -17,7 +17,7 @@ namespace DistroDL
         }
         public string Sort(string status)
         {
-            return status="zero";
+            return status = "zero";
         }
     }
     internal class DistroDL
